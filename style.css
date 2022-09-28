@@ -1,0 +1,44 @@
+body{
+    background: ghostwhite; // cor
+}
+
+
+
+p, h1{
+
+    text-align: center; // colocar no centro da página 
+
+}
+
+strong{
+    color:mediumblue;
+}
+
+form{
+
+    margin: 0 auto;
+    width: 400px;
+
+    padding: 1em;
+    border: 1px solid #ccc;
+
+}
+form div + div {
+    margin-top: 1em;
+}
+
+label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea{
+    display: inline-block;
+font: 1em sans-serif;
+
+width: 300px;
+}
+
+
+
